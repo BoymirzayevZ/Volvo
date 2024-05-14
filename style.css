@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* list-style: none; */
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#head {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images01.nicepage.io/7d/49/7d49b53f35a91fd08931b8dfa9ae7ac9.png);
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.508);
+}   
+#navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#head i {
+    font-size: 26px;
+    color: white;
+}
+#head i:hover {
+    transform: scale(1.5);
+    transition: all ease 2s;
+    color:red;
+}
+#head h1 {
+    padding-top:  20px;
+    font-size: 120px;
+    color: white;
+}
+#head b {
+    font-size: 26px;
+    color: white;
+}
+#head {
+    text-align: center;
+}
+#top {
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 100px;
+}
+#top h6 {
+    font-size: 32px;
+    color: white;
+}
+#one {
+    width: 100;
+    height: 110vh;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/thumbs/1674282509_catherineasquithgallery-com-p-skachat-besplatno-serii-fon-foto-6.jpg);
+    color: white;
+}
+#one h2 {
+    font-size: 32px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#one b {
+    font-size: 20px;
+}
+#bottom {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#bottom i {
+    font-size: 100px;
+    color: white;
+}
+#bottom i:hover {
+    transform: scale(0.5);
+    transform: rotate(25deg);
+    transition: all ease 2s;
+    color:red;
+}
+#too {
+    text-align: center;
+    width: 100%;
+    height: 130vh;
+    background: rgb(25, 25, 25);
+}
+#too #top {
+    display: flex;
+    justify-content: space-around;
+}
+#too #top img {
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+    height: 600px;
+    width: 760px;
+
+}
+#too img {
+    position: relative;
+    bottom: 200px;
+    width: 100%;
+    height: 65vh;
+}
+#too h2 {
+    font-size: 36px;
+    color: white;
+}
+#too #top {
+    position: relative;
+    left: 100px;
+}
+#too b {
+    font-size: 20px;
+    color: white;
+}
+#too button {
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+#too button:hover {
+    border-color: black;
+    background: white;
+    color: black;
+}
+#thre {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/thumbs/1674282509_catherineasquithgallery-com-p-skachat-besplatno-serii-fon-foto-6.jpg);
+}
+#index {
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+#index #left {
+    padding-top: 50px;
+    text-align: center;
+    background: black;
+    width: 400px;
+    height: 400px;
+}
+#index #left h2 {
+    color: white;
+    font-size: 36px;
+}
+#index #left b {
+    color: white;
+    font-size: 20px;
+}
+#index #center {
+    text-align: center;
+    padding-top: 50px;
+    background: rgb(246, 244, 244);
+    width: 400px;
+    height: 400px;
+}
+#index #center h2 {
+    color: black;
+    font-size: 36px;
+}
+#index #center b {
+    color: black;
+    font-size: 20px;
+}
+#index #right {
+    position: relative;
+    bottom: 100px;
+    width: 400px;
+    height: 500px;
+}
+#index #right img {
+    width: 400px;
+    height: 500px;
+}
+#fo {
+    width: 100%;
+    height: 200vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://sotni.ru/wp-content/uploads/2023/08/temno-seryi-fon-4.webp);
+}
+#avtoserviz {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#avtoserviz i {
+    padding-top: 150px;
+    font-size: 100px;
+    color: white;
+}
+#avtoserviz i:hover {
+    transform: scale(0.5);
+    transform: scale(1.2);
+    transition: all ease 2s;
+    color:red;
+}
+#avtoserviz h2 {
+    font-size: 36px;
+    color: white;
+}
+#avtoserviz b {
+    font-size: 20px;
+    color: white;
+}  
+#avtoserviz button {
+    border: 2px solid black;
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    background: white;
+    color: rgb(6, 6, 6);
+}
+#avtoserviz button:hover {
+    background: black;
+    color: white;
+    border-color: white;
+}
+#fobottom {
+    position: relative;
+    left: 50px;
+}
+#fotop {
+    margin-left: 50px;
+}
+#fobot {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#fobot h2 {
+    font-size: 36px;
+    color: white;
+    padding-bottom: 20px;
+}
+#fobot b {
+    font-size: 20px;
+    color: white;
+}
+#fobot li {
+    margin-top: 15px;
+    color: white;
+    font-size: 18px;
+}
+#fobot li:hover {
+    text-decoration: underline;
+}
+#fobot ul {
+    margin-left: 20px;
+}
+#fayfone {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/thumbs/1674282509_catherineasquithgallery-com-p-skachat-besplatno-serii-fon-foto-6.jpg);
+}
+#fayfright {
+    width: 30%;
+    padding: 150px;
+    text-align: center;
+}
+#fayfright h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+footer {
+    width: 100%;
+}
+@media (max-width: 750px) {
+    #head h1 {
+        font-size: 26px;
+    }
+    #head b {
+        font-size: 16px;
+    }
+    #one {
+        width: 100%;
+        height: 120vh;
+    }
+    #one #top {
+        flex-wrap: wrap;
+    }
+    #one #top img {
+        width: 300px;
+        height: 200px;
+    }
+    #one #top h6 {
+        font-size: 22px;
+    }
+    #one #top b {
+        font-size: 16px;
+    }
+    #one h2 {
+        font-size: 22px;
+    }
+    #one b {
+        font-size: 16px;
+    }
+    #one #bottom i {
+        font-size: 60px;
+    }
+    #one #bottom b {
+        font-size: 14px;
+    }
+    #too {
+        width: 100%;
+        height: 200vh;
+    }
+    .toodiv {
+        margin-left: 50px;
+        padding-bottom: 50px;
+    }
+    #too #top {
+        flex-wrap: wrap;
+
+    }
+    #too #top h2 {
+        font-size: 22px;
+
+    }
+    #too #top b {
+        font-size: 16px;
+    }
+    #too #top img {
+        width: 90%;
+        height: 500px;
+    }
+    #too img {
+        margin-top: 100px;
+        width: 89%;
+        height: 500px;
+    }
+    #too #top div {
+        width: 99%;
+        position: relative;
+        right: 120px;
+    }
+    #tootop {
+        width: 100%;
+        text-align: center;
+    }
+    #thre #index {
+        margin-left: 30px;
+    }
+    #thre #index h2 {
+        font-size: 20px;
+    }
+    #thre #index b {
+        font-size: 14px;
+    }
+    #thre #right img {
+        width: 200px;
+        height: 500px;
+    }
+    #thre #left {
+        width: 200px;
+        height: 400px;
+    }
+    #thre #center {
+        width: 200px;
+        height: 400px;
+    }
+    #fo {
+        width: 100%;
+        height: 400vh;
+    }
+    .fobot {
+        padding-top: 50px;
+    }
+    #avtoserviz {
+        flex-wrap: wrap;
+    }
+    #fobottom  img {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        right: 60px;
+    }
+    #fotop {
+        margin-right: 50px;
+        margin-bottom: 50px;
+    }
+    #fotop i {
+        font-size: 60px;
+    }
+    #fotop h2 {
+        font-size: 22px;
+    }
+    #fotop b {
+        font-size: 16px;
+    }
+    #fobot {
+        flex-wrap: wrap;
+    }
+    #fayfone {
+        flex-wrap: wrap;
+    }
+    #fayfone img {
+        width: 500px;
+        height: 400px;
+    }
+    #fayfright {
+        margin-right: 100px;
+    }
+}
